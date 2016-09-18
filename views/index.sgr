@@ -1,0 +1,61 @@
+extends(src='layout.sgr')
+  block(name='content')
+    section#heading
+      #header-container.quarter
+        h1 Welcome to Makapala
+        h2 Satu Nyawa, Gak Banyak-Banyak
+        button Tombol Video
+
+    section#about
+        h2.title Who are We?
+          .container
+            div.image-container
+                img(src='https://pbs.twimg.com/profile_images/630233790237900801/NzMqCLrT_400x400.jpg')
+            div#text
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Voluptas nisi culpa tempore facere. Perferendis autem, laudantium modi pariatur, eveniet sequi accusamus commodi fugiat eligendi, totam obcaecati, est. Eos soluta delectus, a impedit praesentium dolorum officiis, quos minus recusandae expedita illo quidem ullam modi accusamus cupiditate dicta suscipit facere quam at? Molestiae eveniet quod, unde, placeat assumenda praesentium accusantium possimus totam, minima, iure ea.
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, modi eligendi aspernatur odit, excepturi voluptatem ab deserunt tempora minima quaerat, perspiciatis adipisci maxime nemo sapiente quidem blanditiis pariatur commodi. Expedita quae non incidunt repellendus, voluptate accusamus placeat voluptatibus, atque eligendi.
+
+    section#event
+      h2.title Upcoming Events
+      .event-container
+        div.event-box
+          h3 Come and Join: Some Big Awfull Leadership Conference
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis facere voluptatum aperiam ullam eligendi est, eos et esse labore recusandae nemo nihil velit quod, molestiae, a. Vel repellendus quisquam cumque.
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, voluptatum.
+        div.event-box
+          h3 Come and Join II: Some Tiny Little Bird Learn to Fly Event
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sit vitae, ea, tenetur omnis velit quasi saepe commodi repudiandae vel. Reprehenderit saepe pariatur consectetur cumque tempore accusantium, quae veniam eaque, fugiat omnis cum officia est numquam fuga unde maxime commodi.
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dolorum cumque deserunt aut autem deleniti, fugit? Aliquam, totam, eaque! Velit!
+
+    section#contact
+      h2.title Get in Touch
+      #contact-container
+        #form
+          form
+            fieldset
+              input#name(type='text' placeholder='Your Ugly Name' required)
+              input#email(type='email' placeholder='your_email@company.com' required)
+              textarea#message(name='message' placeholder='Enter Message' required)
+              button(type='submit') Submit
+        #contacts-list
+          div
+            h3 Email
+            a info@makapala.org
+          div
+            h3 Phone
+            a 0852 7040 3281
+          div
+            h3 Address
+            address
+            | 1234 Somewhere in Earth
+            br
+            Banda Aceh, Aceh, Indonesia
+          div#social-media
+            h3 Social Media
+            ul
+              li: a(href='#'): img(src='img/twitter.svg')
+              li: a(href='#'): img(src='img/facebook.svg')
+              li: a(href='#'): img(src='img/instagram.svg')
+    footer#footer
+      div#credits
+        span Made with &hearts; by Muhajir

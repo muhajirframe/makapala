@@ -1,0 +1,31 @@
+{
+  "nextFreeModuleId": 7,
+  "modules": {
+    "byIdentifier": {
+      "multi assets/css/index.sss": 0,
+      "../../../../usr/local/lib/node_modules/spike/node_modules/source-loader/lib/index.js!../../../../usr/local/lib/node_modules/spike/node_modules/postcss-loader/index.js?!assets/css/index.sss": 1,
+      "multi js/main": 0,
+      "../../../../usr/local/lib/node_modules/spike/node_modules/babel-loader/index.js!assets/js/index.js": 2,
+      "multi views/index.sgr": 0,
+      "../../../../usr/local/lib/node_modules/spike/node_modules/source-loader/lib/index.js!../../../../usr/local/lib/node_modules/spike/node_modules/reshape-loader/lib/index.js!views/index.sgr": 3,
+      "multi assets/img/facebook.svg": 0,
+      "../../../../usr/local/lib/node_modules/spike/node_modules/source-loader/lib/index.js!assets/img/facebook.svg": 4,
+      "multi assets/img/instagram.svg": 0,
+      "../../../../usr/local/lib/node_modules/spike/node_modules/source-loader/lib/index.js!assets/img/instagram.svg": 5,
+      "multi assets/img/twitter.svg": 0,
+      "../../../../usr/local/lib/node_modules/spike/node_modules/source-loader/lib/index.js!assets/img/twitter.svg": 6
+    }
+  },
+  "nextFreeChunkId": 6,
+  "chunks": {
+    "byName": {
+      "assets/css/index.sss": 0,
+      "js/main": 1,
+      "views/index.sgr": 2,
+      "assets/img/facebook.svg": 3,
+      "assets/img/instagram.svg": 4,
+      "assets/img/twitter.svg": 5
+    },
+    "byBlocks": {}
+  }
+}
