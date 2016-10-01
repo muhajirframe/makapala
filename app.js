@@ -24,11 +24,4 @@ module.exports = {
     return css
   },
   babel: { presets: [jsStandards] },
-  plugins: [
-    new HardSourcePlugin({
-      environmentPaths: { root: __dirname },
-      recordsPath: path.join(__dirname, '_cache/records.json'),
-      cacheDirectory: path.join(__dirname, '_cache/hard_source_cache')
-    })
-  ]
 }
