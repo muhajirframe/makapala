@@ -29,7 +29,8 @@ extends(src='layout.sgr')
           p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sit vitae, ea, tenetur omnis velit quasi saepe commodi repudiandae vel. Reprehenderit saepe pariatur consectetur cumque tempore accusantium, quae veniam eaque, fugiat omnis cum officia est numquam fuga unde maxime commodi.
           p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dolorum cumque deserunt aut autem deleniti, fugit? Aliquam, totam, eaque! Velit!
           button Learn More
-
+      .check-more
+        a(href='calender.html'):button:h3 Check Our Calendar
     section#contact
       h2.title Get in Touch
       #contact-container

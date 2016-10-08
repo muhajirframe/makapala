@@ -130,18 +130,32 @@ form
 
 #event
   background-color: #3498db
+  & .event-container
+    lost-utility: clearfix
   & h2
     color: #fff
   & .event-box
     margin: 10px
     border-radius: 6px
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     background-color: #f9f9f9
     & h3
       padding: 20px
       border-bottom: 2px solid #999
     & p
       padding: 15px 20px
+    & button
+      color: #555
+      border: 1px solid #555
+      margin: 10px
+      &:hover,
+      &:focus
+        background-color: #555
+        color: #fff
+  & .check-more
+    padding-top: 20px
+    lost-center: 200px
+
   @media (width >= 768px)
     & .event-box
       margin: 6%
@@ -183,6 +197,27 @@ form
   @media (width >= 1024px)
     & input
       lost-column: 1/2
+
+// Calender Page
+
+#calender
+  color: #fff
+  & a
+    text-decoration: none
+    color: #fff
+  & h3
+    padding: 20px
+    text-decoration: none
+  & #calendar-container
+    box-sizing: border-box
+    padding: 20px
+    border-radius: 4px
+    & iframe
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      border-radius: 4px
+  & h1
+    padding-left: 30px
+  background-color: #3498db
 
 footer#footer
   background-color: #2c3e50
