@@ -1,0 +1,19 @@
+extends(src='layout.sgr')
+  block(name='content')
+    a(href='/'):h3 <- Back to Home
+
+    section.container
+      h1 Prestasi Makapala
+      #prestasi-card-container
+        .card
+          h3 Judul prestasi
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
+        .card
+          h3 Judul prestasi
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
+        .card
+          h3 Judul prestasi
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
+        .card
+          h3 Judul prestasi
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu

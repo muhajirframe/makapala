@@ -18,6 +18,7 @@ html
   body(role='document')
     main(role='main' id='{{ pageId }}')
       block(name='content')
+    include(src='_footer.sgr')
 
     block(name='javascript')
       script(src='js/main.js' defer)

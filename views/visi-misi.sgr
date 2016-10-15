@@ -1,0 +1,10 @@
+extends(src='layout.sgr')
+  block(name='content')
+    a(href='/'):h3 <- Back to Home
+
+    section.container
+      h1 Visi Misi
+      #penjelasan
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Voluptas nisi culpa tempore facere. Perferendis autem, laudantium modi pariatur, eveniet sequi accusamus commodi fugiat eligendi, totam obcaecati, est. Eos soluta delectus, a impedit praesentium dolorum officiis, quos minus recusandae expedita illo quidem ullam modi accusamus cupiditate dicta suscipit facere quam at? Molestiae eveniet quod, unde, placeat assumenda praesentium accusantium possimus totam, minima, iure ea.
+        p Consectetur adipisicing elit. Explicabo, modi eligendi aspernatur odit, excepturi voluptatem ab deserunt tempora minima quaerat, perspiciatis adipisci maxime nemo sapiente quidem blanditiis pariatur commodi. Expedita quae non incidunt repellendus, voluptate accusamus placeat voluptatibus, atque eligendi.C. Explicabo, modi eligendi aspernatur odit, excepturi voluptatem ab deserunt tempora minima quaerat, perspiciatis adipisci maxime nemo sapiente quidem blanditiis pariatur commodi. Expedita quae non incidunt repellendus, voluptate accusamus placeat voluptatibus, atque eligendi.
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Voluptas nisi culpa tempore facere. Perferendis autem, laudantium modi pariatur, eveniet sequi accusamus commodi fugiat eligendi, totam obcaecati, est. Eos soluta delectus, a impedit praesentium dolorum officiis, quos minus recusandae expedita illo quidem ullam modi accusamus cupiditate dicta suscipit facere quam at? Molestiae eveniet quod, unde, placeat assumenda praesentium accusantium possimus totam, minima, iure ea.

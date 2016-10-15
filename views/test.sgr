@@ -1,0 +1,19 @@
+extends(src='layout.sgr')
+  block(name='content')
+    .container
+      .column
+        p a
+      .column
+        p a
+      .column
+        p a
+      .column
+        p a
+      .column
+        p a
+      .column
+        p a
+
+    footer#footer
+      div#credits
+        span Made with &hearts; by Muhajir
