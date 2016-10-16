@@ -1,5 +1,4 @@
 footer#footer
   div#credits
-    span Made with
-      span#love  &hearts;
-      |  by Muhajir
+    span Designed By
+      a(href='https://hellomuhajir.com') Muhammad Muhajir

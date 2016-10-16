@@ -5,6 +5,11 @@ extends(src='layout.sgr')
     section.container
       h1 Visi Misi
       #penjelasan
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Voluptas nisi culpa tempore facere. Perferendis autem, laudantium modi pariatur, eveniet sequi accusamus commodi fugiat eligendi, totam obcaecati, est. Eos soluta delectus, a impedit praesentium dolorum officiis, quos minus recusandae expedita illo quidem ullam modi accusamus cupiditate dicta suscipit facere quam at? Molestiae eveniet quod, unde, placeat assumenda praesentium accusantium possimus totam, minima, iure ea.
-        p Consectetur adipisicing elit. Explicabo, modi eligendi aspernatur odit, excepturi voluptatem ab deserunt tempora minima quaerat, perspiciatis adipisci maxime nemo sapiente quidem blanditiis pariatur commodi. Expedita quae non incidunt repellendus, voluptate accusamus placeat voluptatibus, atque eligendi.C. Explicabo, modi eligendi aspernatur odit, excepturi voluptatem ab deserunt tempora minima quaerat, perspiciatis adipisci maxime nemo sapiente quidem blanditiis pariatur commodi. Expedita quae non incidunt repellendus, voluptate accusamus placeat voluptatibus, atque eligendi.
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Voluptas nisi culpa tempore facere. Perferendis autem, laudantium modi pariatur, eveniet sequi accusamus commodi fugiat eligendi, totam obcaecati, est. Eos soluta delectus, a impedit praesentium dolorum officiis, quos minus recusandae expedita illo quidem ullam modi accusamus cupiditate dicta suscipit facere quam at? Molestiae eveniet quod, unde, placeat assumenda praesentium accusantium possimus totam, minima, iure ea.
+        h2 Visi
+        ol
+          li Meningkatkan kemampuan anggota Makapala dalam berbagai bidang kehidupan khususnya kepecintaanalaman dan lingkungan hidup sebagai bekal anggota dalam bermasyarakat
+          li Memberi kontribusi positif terhadap lingkungan sekitarnya khususnya bidang pelestarian lingkungan
+        h2 Misi
+        ol
+          li Menyelenggarakan dan mengikuti kegiatan yang berhubungan dengan peningkatan kemampuan diri, pengembangan organisasi dan pengabdian kepada masyarakat.
+          li Memupuk kesadaran dan tanggung jawab anggota MAKAPALA pada khususnya dan mahasiswa pada umumnya untuk melestarikan alam dan lingkungannya.

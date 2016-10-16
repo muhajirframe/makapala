@@ -13,8 +13,7 @@ extends(src='layout.sgr')
             div.image-container
                 img(src='https://pbs.twimg.com/profile_images/630233790237900801/NzMqCLrT_400x400.jpg')
             div#text
-                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Voluptas nisi culpa tempore facere. Perferendis autem, laudantium modi pariatur, eveniet sequi accusamus commodi fugiat eligendi, totam obcaecati, est. Eos soluta delectus, a impedit praesentium dolorum officiis, quos minus recusandae expedita illo quidem ullam modi accusamus cupiditate dicta suscipit facere quam at? Molestiae eveniet quod, unde, placeat assumenda praesentium accusantium possimus totam, minima, iure ea.
-                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, modi eligendi aspernatur odit, excepturi voluptatem ab deserunt tempora minima quaerat, perspiciatis adipisci maxime nemo sapiente quidem blanditiis pariatur commodi. Expedita quae non incidunt repellendus, voluptate accusamus placeat voluptatibus, atque eligendi.
+                p Makapa bukan hanya organisasi pecinta alam melainkan sebuah keluarga dengan latar belakang, karakter dan hobi yang berbeda namun melebur menjadi satu tim yang tidak akan pernah terpisahkan kecuali oleh takdir Tuhan
                 .check-more
                   a(href='prestasi.html'):button:h3 Prestasi
                   a(href='visi-misi.html'):button:h3 Visi Misi
@@ -47,19 +46,21 @@ extends(src='layout.sgr')
         #contacts-list
           div
             h3 Email
-            a info@makapala.org
+            a(href='malto:info@makapala.org') info@makapala.org
           div
             h3 Phone
-            a 0852 7040 3281
+            a(href='tel:+6281214882253') +62 812 1488 2253
           div
             h3 Address
             address
-            | 1234 Somewhere in Earth
+            | Sekretariat MAKAPALA
             br
-            Banda Aceh, Aceh, Indonesia
+            | Politeknik AKA Bogor
+            br
+            | Jalan Pangeran Sogiri, No. 283, Tanah Baru, Bogor Utara
           div#social-media
             h3 Social Media
             ul
-              li: a(href='#'): img(src='img/twitter.svg')
+              li: a(href='https://twitter.com/mkpl_aka'): img(src='img/twitter.svg')
               li: a(href='#'): img(src='img/facebook.svg')
-              li: a(href='#'): img(src='img/instagram.svg')
+              li: a(href='https://instagram.com/makapala_aka'): img(src='img/instagram.svg')
