@@ -4,7 +4,7 @@ extends(src='layout.sgr')
       #container
         #header-container.quarter
           h1 Welcome to Makapala
-          h2 Satu Nyawa, Gak Banyak-Banyak
+          h2 Satu Tim, Satu Nyawa
           button Tombol Video
 
     section#about
