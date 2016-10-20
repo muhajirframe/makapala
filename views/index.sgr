@@ -13,7 +13,7 @@ extends(src='layout.sgr')
             div.image-container
                 img(src='https://pbs.twimg.com/profile_images/630233790237900801/NzMqCLrT_400x400.jpg')
             div#text
-                p Makapa bukan hanya organisasi pecinta alam melainkan sebuah keluarga dengan latar belakang, karakter dan hobi yang berbeda namun melebur menjadi satu tim yang tidak akan pernah terpisahkan kecuali oleh takdir Tuhan
+                p Makapala bukan hanya organisasi pecinta alam melainkan sebuah keluarga dengan latar belakang, karakter dan hobi yang berbeda namun melebur menjadi satu tim yang tidak akan pernah terpisahkan kecuali oleh takdir Tuhan
                 .check-more
                   a(href='prestasi.html'):button:h3 Prestasi
                   a(href='visi-misi.html'):button:h3 Visi Misi
