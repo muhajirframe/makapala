@@ -245,13 +245,26 @@ form
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     box-sizing: border-box
     padding: 20px
-    margin-bottom: 20px
-    border-radius: 4px
+    &:first-child
+      border-radius: 4px 4px 0px 0px
+    &:last-child
+      border-radius: 0px 0px 4px 4px
     lost-column: 1
-    @media(width >= 768px)
-      lost-column: 1/2
-    @media(width >= 1024px)
-      lost-column: 1/3
+  & p
+    padding: 0px 30px
+  & table
+    width: 100%
+    & th
+      font-size: 1.3em
+      padding: 8px
+      text-align: left
+    & th:first-child
+      text-align: center
+    & tr
+      & td
+        padding: 5px
+      & td:first-child
+        text-align: center
 
 #visi-misi
   @media(width >= 768px)

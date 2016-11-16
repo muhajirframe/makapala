@@ -6,14 +6,21 @@ extends(src='layout.sgr')
       h1 Prestasi Makapala
       #prestasi-card-container
         .card
-          h3 Judul prestasi
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
+          table
+            tr
+              th Tahun
+              th Prestasi
+              th Kegiatan
+            tr
+              td 2002
+              td Juara II
+              td Lintas Alam Sylvasari XIII
+            tr
+              td 2003
+              td Harapan II
+              td Lomba Lintas Alam Tapak Tilas Adaw
+          h3 2002
+          p Juara II Lomba Lintas Alam (Sylvasari XIII)
         .card
-          h3 Judul prestasi
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
-        .card
-          h3 Judul prestasi
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
-        .card
-          h3 Judul prestasi
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam illum aliquam eligendi ipsa cum hic suscipit repudiandae sit impedit, atque rem odio aut, ratione. Volu
+          h3 2003
+          p Juara Harapan II Lomba Lintas Alam Tapak Tilas Adaw
