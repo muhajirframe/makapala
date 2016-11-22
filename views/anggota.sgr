@@ -1,0 +1,12 @@
+extends(src='layout.sgr')
+  block(name='content')
+    a(href='/'):h3 <- Back to Home
+
+    section.container
+      h1 Anggota
+      .card
+         each(loop='item of data.contentful.anggota')
+          p Name: {{ item.nama }}
+          p Angkatan {{ item.angkatan }} 
+          p Pekerjaan: {{ item.pekerjaan }}
+          p Status: {{ item.status }}

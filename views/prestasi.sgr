@@ -11,80 +11,9 @@ extends(src='layout.sgr')
               th Tahun
               th Prestasi
               th Kegiatan
-            tr
-              td 2002
-              td Juara II
-              td Lintas Alam Sylvasari XIII
-            tr
-              td 2003
-              td Harapan II
-              td Lomba Lintas Alam Tapak Tilas Adaw
-            tr
-              td
-              td Juara II
-              td Lomba lintas Alam Tapak Tilas Adaw
-            tr
-              td 2006
-              td Juara I
-              td Lomba Lintas Alam Sylvasary XV
-            tr
-              td
-              td Juara Umum
-              td Lomba Lintas Alam Sylvasary XV
-            tr
-              td 2007
-              td Juara II
-              td Juara Climbing AKA Competition
-            tr
-              td
-              td Juara I
-              td Lomba Taman Hias Trophy AKA
-            tr
-              td 2008
-              td Juara I
-              td Lomba Lintas Alam Sylvasari XVI
-            tr
-              td
-              td Juara Umum
-              td Lomba Lintas Alam Sylvasari XVI
-            tr
-              td 2010
-              td Juara I
-              td Lomba Lintas Alam Sapala Cup
-            tr
-              td
-              td Juara Umum
-              td Lomba Lintas Alam Sapala Cup
-            tr
-              td
-              td Juara I
-              td Lomba AKA Climbing Competition Putra
-            tr
-              td
-              td Juara I
-              td Lomba AKA Climbing Competition Putri
-            tr
-              td 2011
-              td Juara III
-              td Lomba Lintas Alam Bola Hijau
-            tr
-              td
-              td Juara I
-              td Lomba AKA Climbing Competition Putra
-            tr
-              td
-              td Juara I
-              td Lomba AKA Climbing Competition Putri
-            tr
-              td 2012
-              td Juara III
-              td Lomba Fotografi Mapala Indonesia
-            tr
-              td 2013
-              td Harapan I
-              td Lomba Kebut Gunung Nasional
-            tr
-              td 2014
-              td Harapan I
-              td Lomba Orientering Nasional
+            each(loop='item of data.contentful.prestasi')
+              tr
+                td {{ item.tahun }}
+                td {{ item.prestasi }}
+                td {{ item.kegiatan  }}
 

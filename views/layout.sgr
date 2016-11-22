@@ -10,7 +10,7 @@ html
       link(href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet")
 
     block(name='title')
-      title Title of Your Site
+      title {{ pageId }}
 
     block(name='stylesheets')
       link(rel='stylesheet' href='css/index.css')
