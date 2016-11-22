@@ -10,3 +10,4 @@ extends(src='layout.sgr')
           p Angkatan {{ item.angkatan }} 
           p Pekerjaan: {{ item.pekerjaan }}
           p Status: {{ item.status }}
+          hr 
