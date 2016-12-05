@@ -1,4 +1,7 @@
 extends(src='layout.sgr')
+  block(name='title')
+    title Prestasi | Makapala
+
   block(name='content')
     a(href='/'):h3 <- Back to Home
 
@@ -16,4 +19,3 @@ extends(src='layout.sgr')
                 td {{ item.tahun }}
                 td {{ item.prestasi }}
                 td {{ item.kegiatan  }}
-

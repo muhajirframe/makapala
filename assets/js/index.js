@@ -1,5 +1,4 @@
 import ScrollReveal from 'scrollreveal'
-var Instafeed = require("instafeed.js")
 
 window.sr = ScrollReveal()
 sr.reveal('p')
@@ -11,8 +10,3 @@ sr.reveal('#about img', 500)
 sr.reveal('.event-box', 200)
 sr.reveal('fieldset > *', 150)
 sr.reveal('#contacts-list div', 200)
-
-var feed = new Instafeed({
-    clientId: 'b1ff84b8ef0346b594386c8908a77e3a'
-})
-feed.run()

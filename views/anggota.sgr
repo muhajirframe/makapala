@@ -1,4 +1,8 @@
 extends(src='layout.sgr')
+
+  block(name='title')
+      title Anggota Makapala
+
   block(name='content')
     a(href='/'):h3 <- Back to Home
 

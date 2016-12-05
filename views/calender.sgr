@@ -1,7 +1,11 @@
 extends(src='layout.sgr')
+
+  block(name='title')
+    title Kalender | Makapala
+
   block(name='content')
     a(href='/'):h3 <- Back to Home
 
     section.container
-      h1 Makapala's Calendar
+      h1 Kalender Makapala
         iframe(src='https://calendar.google.com/calendar/embed?src=makapala.akabogor%40gmail.com&ctz=Asia%2FJakarta' style='border: 0' width='100%' height='600' frameborder='0' scrolling='no')

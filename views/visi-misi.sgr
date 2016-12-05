@@ -1,9 +1,13 @@
 extends(src='layout.sgr')
+
+  block(name='title')
+    title Visi Misi | Makapala
+
   block(name='content')
     a(href='/'):h3 <- Back to Home
 
     section.container
-      h1 Visi Misi
+      h1 Visi Misi Makapala
       #penjelasan
         h2 Visi
         ol

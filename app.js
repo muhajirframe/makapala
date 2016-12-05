@@ -16,13 +16,9 @@ module.exports = {
   plugins: [
     new Contentful({
       addDataTo: locals,
-      accessToken: 'ac6738d5e3094d43039fb8c0852337c1e3056a64da77b7289ff5726f79b978e5',
-      spaceId: 'sdvyt1mxlnpv',
+      accessToken: '31ed3f66a4affc3babfc5d4b03afc7fc46c6c0de5ac946ae6b826fafe37db9a1',
+      spaceId: 'kc5ey34xvgd4',
       contentTypes: [
-        {
-          name: 'post',
-          id: 'post'
-        },
         {
           name: 'anggota',
           id: 'anggota'
@@ -30,6 +26,10 @@ module.exports = {
         {
           name: 'prestasi',
           id: 'prestasi'
+        },
+        {
+          name: 'events',
+          id: 'events'
         }
       ]
     })
