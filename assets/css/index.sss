@@ -128,12 +128,14 @@ form
   & p
     padding: 5px 20px
   & .check-more
-    lost-center: 300px
+    lost-center: 500px
     & button
       border: 2px solid #555
       color: #555
-      padding: 0.5em 3em
+      padding: 0
       margin: 5px
+      @media(width >= 768px)
+        padding: 0.5em 2em
       &:hover
         color: #fff
         border: 2px solid #fff
