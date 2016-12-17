@@ -25,7 +25,10 @@ module.exports = {
         },
         {
           name: 'prestasi',
-          id: 'prestasi'
+          id: 'prestasi',
+          filters: {
+            order: 'fields.tahun'
+          }
         },
         {
           name: 'events',
