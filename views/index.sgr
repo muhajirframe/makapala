@@ -39,7 +39,7 @@ extends(src='layout.sgr')
         #form
           form
             fieldset
-              input#name(type='text' placeholder='Your Ugly Name' required)
+              input#name(type='text' placeholder='Your Name' required)
               input#email(type='email' placeholder='your_email@company.com' required)
               textarea#message(name='message' placeholder='Enter Message' required)
               button(type='submit') Submit
