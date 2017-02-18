@@ -24,13 +24,8 @@ extends(src='layout.sgr')
                   a(href='anggota.html'):button:h3 Anggota
 
     section#event
-      h2.title Events
-      .event-container
-         each(loop='event of data.contentful.events')
+      h2.title Events             
           div.event-box
-            h3 {{ event.judul }}
-            p {{ event.penjelasan }}
-            // a(href='#'):button Learn More
       .check-more
         a(href='calender.html'):button:h3 Check Our Calendar
     section#contact
