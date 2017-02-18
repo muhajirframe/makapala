@@ -24,8 +24,7 @@ extends(src='layout.sgr')
                   a(href='anggota.html'):button:h3 Anggota
 
     section#event
-      h2.title Events             
-          div.event-box
+      h2.title Events
       .check-more
         a(href='calender.html'):button:h3 Check Our Calendar
     section#contact
